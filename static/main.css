@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+body {
+  background: #FF9797;
+  height: 100%;
+}
+
+.block-item {
+    border-left: 2px solid #FFF;
+    margin-top: 3vh;
+    margin-left: 7vw;
+    height: auto;
+    font-family: "Helvetica Neue";
+}
+
+.map-wrapper {
+  margin-top: 5vh;
+}
+.navbar {
+  font-weight: 400;
+  text-transform: lowercase;
+  font-family: 'Helvetica Neue', sans-serif;
+  margin-top: 2vh;
+  margin-right: 1vw;
+
+}
+
+.form-wrapper {
+  margin-top: 2.5vh;
+}
+input[type="text"] {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #FFFFFF;
+  outline: none;
+  width: 25vw;
+}
+
+input[type="text"]::placeholder {
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+.row {
+  min-height: 100px;
+}
+
+.header-wrapper {
+  margin-top: 25vh;
+}
+h1, p, h3, input[type="text"]{
+  color: white;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+
+
+h1 {
+  font-size: 4em;
+  font-weight: 700;
+  text-transform:lowercase;
+}
